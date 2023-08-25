@@ -1,6 +1,6 @@
 local totalDelta=0
 local frames=0
-game:GetService("RunService").Heartbeat:Connect(function(delta)
+game:GetService("RunService").RenderStepped:Connect(function(delta)
 	totalDelta+=delta
 	frames+=1
 	if totalDelta>=1 then
