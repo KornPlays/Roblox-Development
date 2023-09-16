@@ -1,1 +1,1 @@
-Prints every second amount of frames since the last print
+Two FPS Counters.
